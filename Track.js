@@ -14,7 +14,7 @@ function doGet(){
                   + currentdate.getSeconds();
     console.log("Pid= " + String(uuidv4()));
     console.log(datetime);
-    var response = fetch("https://01b5-2401-4900-3628-b1da-4923-3bc9-10f-5ddd.in.ngrok.io/listener");
+    var response = fetch("https://01b5-2401-4900-3628-b1da-4923-3bc9-10f-5ddd.in.ngrok.io/listener/");
     console.log(response.json());
   }
   doGet();
